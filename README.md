@@ -1,2 +1,3 @@
-# satp-core
-Sentience-Adjacent Trust Protocol 
+# SATP Core
+
+Secure memory management for LLMs.
