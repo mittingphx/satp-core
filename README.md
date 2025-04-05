@@ -49,7 +49,8 @@ This repository is part of a larger system to enable secure memory management an
 
 I've generated a ZIP archive of the repository, which you can now download and inspect.
 
-👉 [Download satp-core.zip]
+👉 [Download satp-core.zip](satp-core.zip)
+
 
 ---
 
