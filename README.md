@@ -43,17 +43,14 @@ This repository is part of a larger system to enable secure memory management an
 	•	GitHub Actions for automatic deployment and synchronization
 	•	Integration with local AI agents for dynamic memory updates
 
-
-
-   
-
 ---
 
 ### **Packaging the Repository**
 
 I've generated a ZIP archive of the repository, which you can now download and inspect.
 
-👉 [Download satp-core.zip](blob/45b946f0f7ecb7913fe40a780f569cdf99da2d30/satp-core.zip)
+👉 [Download satp-core.zip]
+
 ---
 
 ### **Next Steps**
