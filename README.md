@@ -1,8 +1,51 @@
 # SATP Core
 
-Secure memory management for LLMs.
+SATP Core is a secure memory management system for LLMs, built with a Flask server, encryption utilities, and a memory viewer UI.
+
+## Components
+
+- **Flask Server** (`flask_server/app.py`): Provides endpoints to save, load, and list memory files.
+- **Encryption Utility** (`flask_server/encryption.py`): Implements encryption and decryption functions using Fernet.
+- **Key Manager** (`flask_server/key_manager.py`): Generates and loads the encryption key.
+- **Memory Viewer** (`flask_server/viewer.html`): A simple web UI to view and decrypt saved memories.
+- **SATP Memory Store** (`satp_memory_store/`): Directory where encrypted memory files are stored.
+
+## Setup Instructions
+
+1. Clone this repository.
+2. Navigate to the `flask_server` directory.
+3. Create a Python virtual environment and activate it:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+   
+4.	Install the dependencies:
+   ```bash
+   pip install flask cryptography
+   ```
+
+5. Run the Flask server:
+   ```bash
+   python app.py
+   ```
+6.	Open viewer.html in your browser to view and load your memories.
+
+Encryption Details
+	•	Memory files are encrypted using Fernet symmetric encryption (AES-based).
+	•	The encryption key is generated and stored in satp_memory_store/.satp_key by the key manager.
+	•	The Flask server uses this key to encrypt memory upon saving and decrypt it upon loading.
+
+SATP and Future Development
+
+This repository is part of a larger system to enable secure memory management and trust protocols for LLMs. Future updates may include:
+	•	Metadata tagging and SATP trust level enforcement
+	•	GitHub Actions for automatic deployment and synchronization
+	•	Integration with local AI agents for dynamic memory updates
 
 
+
+   
 
 ---
 
