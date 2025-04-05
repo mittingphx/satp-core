@@ -53,8 +53,7 @@ This repository is part of a larger system to enable secure memory management an
 
 I've generated a ZIP archive of the repository, which you can now download and inspect.
 
-👉 [Download satp-core.zip](sandbox:/mnt/data/satp-core.zip?_chatgptios_conversationID=67ef82ee-77d4-8005-af50-1d3eaf65c538&_chatgptios_messageID=b89f5a08-3953-4b51-b25a-828defdad23b)
-
+👉 [Download satp-core.zip](blob/45b946f0f7ecb7913fe40a780f569cdf99da2d30/satp-core.zip)
 ---
 
 ### **Next Steps**
